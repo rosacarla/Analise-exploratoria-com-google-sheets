@@ -1,2 +1,4 @@
-# analise-exploratoria-com-google-sheets
-Projeto desenvolvido na  Inersão Python da Alura para análise da base da bolsa de valores explorando o Google Sheets, com VLOOKUP, SUMIF, Chat GPT.
+# Análise Exploratória com Google Sheets
+
+Projeto desenvolvido para análise da base da bolsa de valores explorando o Google Sheets, com VLOOKUP, SUMIF, Chat GPT.  
+É uma proposta de trabalho feita na Imersão Python: Do Excel à Análise de Dados, promovida pela Alura. 
