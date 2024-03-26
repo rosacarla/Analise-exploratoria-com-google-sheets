@@ -1,30 +1,36 @@
-#### 📑ANÁLISE EXPLORATÓRIA COM GOOGLE SHEETS
+#### 📈 ANÁLISE EXPLORATÓRIA COM GOOGLE SHEETS
 
 Projeto desenvolvido para análise da base de dados da bolsa de valores explorando o aplicativo Google Sheets, com PROCV (ou VLOOKUP), SE (ou IF) e ChatGPT.  
-É uma proposta de trabalho feita na Imersão Python: Do Excel à Análise de Dados, promovida pela Alura.  
-<img src=''>  
+É uma proposta de trabalho feita na <i>Imersão Python: Do Excel à Análise de Dados</i>, promovida pela Alura.    
+
+<img src='https://github.com/rosacarla/analise-exploratoria-com-google-sheets/blob/main/images/aula01.png'>  
 
 ---
 
-#### ℹ FÓRMULAS DO GOOGLE SHEETS
+#### 📄 FÓRMULAS DO GOOGLE SHEETS  
 - `Variação %` = Var. Dia %/100
 - `Valor inicial (R$)` =Último R$/(Variação % + 1)
 - `Quantidade de ações` =PROCV(Ativo;Total_de_acoes!A:B;2;0)
 - `Variação R$` =(Último R$ - Valor inicial (R$)) * Quantidade de ações
 - `Resultado` =SE(Variação R$>0;"Subiu";SE(Variação R$<0;"Desceu";"Estável"))
 
+☑️ Ver [resolução](https://github.com/rosacarla/analise-exploratoria-com-google-sheets/blob/main/Resolucao%20-%20Imersao%20Python%20-%20Tabela%20de%20acoes.xlsx).
+
 ---  
 
 #### 💬PROMPT DO CHATGPT PARA CRIAR NOVAS COLUNAS  
-<img src=''>  
+<img src='https://github.com/rosacarla/analise-exploratoria-com-google-sheets/blob/main/images/aula01-chatgpt.png'>  
 
 ---  
 
-#### 🧠 DESAFIOS DA AULA 1
-<img src=''>  
-- Fazer os cálculos com as colunas de porcentagem (variação semanal; mensal; anual e 12 meses);
-- Pegar via Chat GPT as faixas de idade;
+#### 🧠 DESAFIO DA AULA 1
+<img src='https://github.com/rosacarla/analise-exploratoria-com-google-sheets/blob/main/images/aula01-desafio.png'> 
+
+- Fazer os cálculos com as colunas de porcentagem (variação semanal; mensal; anual e 12 meses);  
+- Pegar via Chat GPT as faixas de idade;  
 - Pedir para o GPT gerar a fórmula IF para as faixas de idade.
+
+<img src='https://github.com/rosacarla/analise-exploratoria-com-google-sheets/blob/main/images/aula01-solucao.png'>
 
 ---  
 
